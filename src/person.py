@@ -1,6 +1,7 @@
 from abc import ABC
 from typing import List
 
+
 class Persona(ABC):
     def __init__(self, nombre:str,cedula:int)->None:
         self._nombre = nombre
